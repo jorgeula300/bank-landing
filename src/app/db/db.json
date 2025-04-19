@@ -1,0 +1,659 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nombre": "All",
+            "descripcion": "Descripción de la categoría 1"
+        },
+        {
+            "id": 2,
+            "nombre": "Ahorro y depósito",
+            "descripcion": "Descripción de la categoría 1"
+        },
+        {
+            "id": 3,
+            "nombre": "Crédito",
+            "descripcion": "Descripción de la categoría 2"
+        },
+        {
+            "id": 4,
+            "nombre": "Inversión",
+            "descripcion": "Descripción de la categoría 3"
+        },
+        {
+            "id": 5,
+            "nombre": "Seguros",
+            "descripcion": "Descripción de la categoría 4"
+        },
+        {
+            "id": 6,
+            "nombre": "Servicios complementarios",
+            "descripcion": "Descripción de la categoría 5"
+        }
+    ],
+    "data": [
+        
+            {
+                "id": 1,
+                "nombre": "Cuenta de ahorro",
+                "image": "/cuenta-de-Ah.jpeg",
+                "categoria": "Ahorro y depósito",
+                "descripcion": "Con nuestra Cuenta de Ahorros, cuida tu dinero mientras crece con nosotros. Disfruta de beneficios pensados para ti:",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "✅ Sin cuota de manejo"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📲 Acceso 24/7 desde nuestra app y banca en línea"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💸 Transferencias gratis entre cuentas del banco"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🔒 Seguridad y confianza en cada transacción"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📈 Interés compuesto mensual"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Cuenta corriente",
+                "image": "/Cuenta-corriente.jpeg",
+                "categoria": "Ahorro y depósito",
+                "descripcion": "Nuestra Cuenta Corriente está diseñada para quienes necesitan más libertad en el manejo de sus finanzas, sin dejar de lado la seguridad y el respaldo que merecés.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💳 Tarjeta débito con cobertura nacional e internacional"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🔄 Giros, pagos y transferencias sin complicaciones"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "📈 Acceso a sobregiro autorizado según tu historial"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🧾 Recibe y gestiona tus pagos desde una sola cuenta"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Consulta y administra tu cuenta desde nuestra app"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Depósito a plazo fijo",
+                "image": "/Depósito-a-plazo-fijo.jpeg",
+                "categoria": "Ahorro y depósito",
+                "descripcion": "Con nuestro Depósito a Plazo Fijo, obtenés una rentabilidad garantizada sin riesgos. Es la opción ideal si querés hacer crecer tu dinero con total seguridad y sin preocuparte por el mercado.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💰 Plazos flexibles: desde 30 días hasta 365 días"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📲 Acceso 24/7 desde nuestra app y banca en línea"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💸 Transferencias gratis entre cuentas del banco"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🔒 Seguridad y confianza en cada transacción"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📈 Interés compuesto mensual"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 4,
+                "nombre": "Tarjeta de crédito",
+                "image": "/Tarjeta-de-crédito.jpeg",
+                "categoria": "Crédito",
+                "descripcion": "Nuestra Tarjeta de Crédito te da el respaldo que buscás para tus compras diarias, emergencias o grandes proyectos, con beneficios que se adaptan a tu estilo de vida.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🔄 Pago en cuotas flexibles con tasas competitivas"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🌍 Compras nacionales e internacionales sin complicaciones"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💥 Promociones y descuentos en comercios aliados"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🔒 Protección contra fraudes y alertas en tiempo real"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Control total desde la app: bloqueos, topes, pagos y más"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 5,
+                "nombre": "Préstamo personal",
+                "image": "/Préstamo-personal.jpeg",
+                "categoria": "Crédito",
+                "descripcion": "Con nuestro Préstamo Personal, tenés acceso a un monto ajustado a tus necesidades, con plazos cómodos y aprobación rápida. Ideal para esos planes que no pueden esperar.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "✅ Solicitud 100% en línea y respuesta inmediata"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📅 Plazos flexibles hasta 60 meses"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🔁 Cuotas fijas y tasa preferencial según tu perfil"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "💼 Sin necesidad de codeudor (sujeto a análisis)"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Controlá tus pagos desde nuestra app"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 6,
+                "nombre": "Crédito hipotecario",
+                "image": "/Crédito-hipotecario.jpeg",
+                "categoria": "Crédito",
+                "descripcion": "Con nuestro Crédito Hipotecario, te ayudamos a financiar la compra, construcción o remodelación de tu vivienda con condiciones que se ajustan a tu vida.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🏡 Financiación hasta del 80% del valor del inmueble"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📅 Plazos amplios de hasta 20 años"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💲 Tasas competitivas y cuotas fijas o variables"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🧾 Aplicá para vivienda nueva, usada o proyectos en planos"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Seguimiento en línea del proceso desde nuestra app"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 7,
+                "nombre": "Crédito empresarial",
+                "image": "/Crédito-empresarial.jpeg",
+                "categoria": "Crédito",
+                "descripcion": "Nuestro Crédito Empresarial está diseñado para acompañar el crecimiento de tu empresa, brindándote el capital que necesitás para invertir, expandir o fortalecer tus operaciones.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💼 Montos personalizados según tus necesidades y capacidad"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📆 Plazos flexibles y cuotas adaptadas a tu flujo de caja"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💲 Tasas preferenciales para clientes con buen historial"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🏭 Ideal para compra de maquinaria, inventario, expansión o capital de trabajo"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "🧾 Asesoría financiera personalizada incluida"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 8,
+                "nombre": "Fondo de inversión",
+                "image": "/Fondo-de-inversión.jpeg",
+                "categoria": "Inversión",
+                "descripcion": "Nuestro Fondo de Inversión te permite acceder al mercado financiero de forma diversificada y con el respaldo de expertos. Ya seas principiante o inversor con experiencia, tenemos opciones para vos.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💼 Acceso a portafolios diversificados según tu perfil de riesgo"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📊 Inversiones desde montos bajos y sin complicaciones"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "📅 Liquidez periódica y rendimientos competitivos"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📲 Gestión y seguimiento desde la app en tiempo real"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "🧠 Asesoría de expertos en cada etapa de tu inversión"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 9,
+                "nombre": "Bonos bancarios",
+                "image": "/Bonos-bancarios.jpeg",
+                "categoria": "Inversión",
+                "descripcion": "Los Bonos Bancarios de Banco Nova son una excelente alternativa para quienes buscan rendimientos estables y confiables en el mediano y largo plazo, con el respaldo de una institución sólida.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💵 Rentabilidad fija o variable según el tipo de bono"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📆 Plazos definidos y opciones según tu estrategia de inversión"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🔐 Alta seguridad y bajo riesgo crediticio"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📈 Ideal para diversificar tu portafolio con instrumentos financieros sólidos"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "🧾 Certificación y seguimiento desde nuestra plataforma digital"
+                    }
+
+
+                ]
+
+            },
+            {
+                "id": 14,
+                "nombre": "Seguro de vida",
+                "image":"/Seguro-de-vida.jpeg",
+                "categoria": "Seguros",
+                "descripcion": "Nuestro Seguro de Vida está diseñado para que vivas con la seguridad de que, pase lo que pase, tus seres queridos estarán protegidos económicamente. Porque cuidar el futuro también es un acto de amor.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💸 Cobertura en caso de fallecimiento, invalidez o enfermedad grave"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🛡️ Planes ajustados a tu perfil y necesidades"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "👨‍👩‍👧‍👦 Protección para tu familia o beneficiarios designados"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📑 Proceso de contratación ágil y sin exámenes complicados"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Gestión, pagos y consultas 100% en línea"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 15,
+                "nombre": "Seguro de salud",
+                "image":"/Seguro-de-salud.jpeg",
+                "categoria": "Seguros",
+                "descripcion": "Nuestro Seguro de Salud te ofrece acceso a una red de servicios médicos y beneficios exclusivos para que tu bienestar y el de los tuyos estén siempre cubiertos.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🏥 Acceso a una amplia red de hospitales, clínicas y médicos especialistas"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "💊 Cobertura para consultas, exámenes, cirugías y tratamientos"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🚑 Atención de emergencias las 24 horas, los 7 días de la semana"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🧑‍⚕️ Consultas médicas en línea y acceso a telemedicina"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "💳 Beneficios adicionales en farmacias, laboratorios y más"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 16,
+                "nombre": "Seguro vehicular",
+                "image":"/Seguro-vehicular.jpeg",
+                "categoria": "Seguros",
+                "descripcion": "Con nuestro Seguro Vehicular, podés conducir con la confianza de que tu vehículo está protegido ante cualquier imprevisto, ya sea un accidente, robo o daño.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🚙 Cobertura amplia: daños a terceros, robo, incendio, y más"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🛠️ Asistencia en carretera las 24 horas"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🚗 Reparaciones en talleres autorizados con garantía"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🧳 Cobertura adicional para daños a tus pertenencias dentro del vehículo"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Gestión, pagos y reclamos rápidos a través de nuestra app"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 17,
+                "nombre": "Seguro de hogar",
+                "image":"/Seguro-de-hogar.jpeg",    
+                "categoria": "Seguros",
+                "descripcion": "Con nuestro Seguro de Hogar, tenés la cobertura que necesitás para proteger tu vivienda, tus pertenencias y a tu familia ante cualquier imprevisto. Viví con la paz de saber que, pase lo que pase, tu hogar está protegido.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🏡 Cobertura en caso de incendio, robo, daños, y más"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🛡️ Planes ajustados a tu perfil y necesidades"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "👨‍👩‍👧‍👦 Protección para tu familia o beneficiarios designados"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📑 Proceso de contratación ágil y sin exámenes complicados"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Gestión, pagos y consultas 100% en línea"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 18,
+                "nombre": "Protección financiera",
+                "image":"/Seguro-de-protección-de-tarjetas-y-créditos.jpeg",
+                "categoria": "Seguros",
+                "descripcion": "Con nuestra Protección Financiera, podés afrontar los imprevistos y asegurar el bienestar económico de tu familia o empresa, manteniendo la estabilidad financiera en tiempos de incertidumbre.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💼 Cobertura ante situaciones imprevistas: pérdida de empleo, enfermedades graves, accidentes, y más"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "💰 Planificación para la jubilación y seguros de vida"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🏠 Protección en caso de problemas económicos que afecten tu patrimonio"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📈 Asesoría financiera para gestionar tu dinero y tus inversiones con seguridad"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Acceso a herramientas de planificación y monitoreo desde nuestra app"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 19,
+                "nombre": "Banca en línea y móvil",
+                "image":"/Banca-en-línea-y-móvil.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Con nuestra Banca en Línea y Móvil, podés realizar todas tus operaciones bancarias de forma rápida, segura y desde cualquier lugar. ¡Tu banco, siempre a tu disposición!",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💳 Realizá transferencias, pagos y consultas de saldo al instante"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🛒 Compra en línea y paga tus servicios con un solo clic"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🔒 Seguridad avanzada: autenticación biométrica, PIN y alertas en tiempo real"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📊 Accedé a informes de tus gastos e inversiones de manera clara y sencilla"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Gestioná tu cuenta, tarjeta y préstamos desde la app móvil o navegador web"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 20,
+                "nombre": "Transferencias",
+                "image":"/Transferencias-nacionales-e-internacionales.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Con nuestro servicio de Transferencias, podés mover tu dinero de forma rápida, segura y sin barreras. Transferí entre cuentas, bancos o incluso a nivel internacional con solo unos clics.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💸 Realizá transferencias nacionales e internacionales de manera rápida y segura"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📊 Accedé a informes de tus gastos e inversiones de manera clara y sencilla"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🔒 Seguridad avanzada: autenticación biométrica, PIN y alertas en tiempo real"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📲 Gestioná tu cuenta, tarjeta y préstamos desde la app móvil o navegador web"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📊 Accedé a informes de tus gastos e inversiones de manera clara y sencilla"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 21,
+                "nombre": "Cajeros y corresponsales",
+                "image":"/Cajeros-automáticos-y-corresponsales-bancarios.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Con nuestra red de Cajeros y Corresponsales Bancarios, podés realizar tus operaciones bancarias de manera rápida y cómoda, sin importar dónde estés.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💵 Retiro de efectivo en más de 500 cajeros automáticos en todo el país"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🏦 Acceso a más de 2,000 corresponsales bancarios para depósitos, pagos y consultas"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🌍 Red de cajeros internacionales para tus viajes o necesidades fuera del país"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "📱 Realización de pagos, consultas y retiro de efectivo en nuestra app con geolocalización de cajeros cercanos"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "🔒 Operaciones seguras con protección en tiempo real"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 22,
+                "nombre": "Asesoría financiera",
+                "image":"/Asesoría-financiera-personalizada.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Nuestro servicio de Asesoría Financiera está diseñado para ayudarte a gestionar tu dinero de manera eficiente, optimizando tus recursos y alcanzando tus metas financieras con estrategias personalizadas.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "💡 Asesoría personalizada para gestión de ahorros, inversiones y planificación de tu futuro"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "📈 Análisis detallado de tu perfil financiero y recomendación de productos adecuados"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🏠 Consultoría para la compra de vivienda, crédito hipotecario o inversión en bienes raíces"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "💼 Asistencia en la creación y desarrollo de planes financieros a largo plazo"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Acceso a asesoría en línea o presencial, según tu preferencia"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 23,
+                "nombre": "Billeteras digitales",
+                "image":"/Billeteras-digitales.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Con nuestras Billeteras Digitales, podés gestionar y transferir tu dinero de forma rápida, segura y sin necesidad de llevar efectivo. Hacé compras, pagos y más, todo desde tu teléfono móvil.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "📱 Realizá pagos de servicios, compras en línea y transferencias con un solo clic"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "🔒 Seguridad avanzada con autenticación biométrica y protección en tiempo real"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "💸 Acceso rápido a tu saldo y movimientos desde la app"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🌍 Usabilidad global: realizá pagos en tiendas físicas y digitales, tanto a nivel nacional como internacional"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📈 Gestión eficiente de tus finanzas: seguimiento de gastos y control de saldo en tiempo real"
+                    }
+
+
+                ]
+            },
+            {
+                "id": 24,
+                "nombre": "Token / Biometría",
+                "image":"/Token-de-seguridad-o-autenticación-biométrica.jpeg",
+                "categoria": "Servicios complementarios",
+                "descripcion": "Con nuestros sistemas de Token de Seguridad y Autenticación Biométrica, tus operaciones bancarias estarán siempre protegidas, garantizando que solo vos podás acceder a tu cuenta.",
+                "beneficios": [
+                    {
+                        "id": 1,
+                        "nombre": "🔑 Token de Seguridad: genera códigos únicos y temporales para acceder a tu cuenta con máxima protección"
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "👁️ Autenticación Biométrica: desbloqueo de tu cuenta mediante huella digital o reconocimiento facial"
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "🔒 Protección en todas tus transacciones: pagos, transferencias y accesos desde cualquier dispositivo"
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "🛡️ Acceso seguro y rápido para evitar fraudes o accesos no autorizados"
+                    },
+                    {
+                        "id": 5,
+                        "nombre": "📲 Gestión integral de tu seguridad a través de nuestra app"
+                    }
+
+
+                ]
+            }
+        
+    ]
+}
