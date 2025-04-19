@@ -43,11 +43,11 @@ FinCo es una aplicación web que muestra de forma detallada los diferentes produ
 
 3. ¿Qué harías para escalar este proyecto en una aplicación real de banca digital?
 
-   -Tocaria crearle un back end robusto y crearle varias interfaces por ejemplo atencion al cliente, pagos y consignaciones en tiempo real, todo esto bien mostrado con graficas etc.
+  -Tocaria crearle un back end robusto y crearle varias interfaces por ejemplo atencion al cliente, pagos y consignaciones en tiempo real, todo esto bien mostrado con graficas etc.
 
 4. ¿Qué herramientas usarías para mejorar el rendimiento y monitoreo en producción?
 
-   utilizaria: Imágenes optimizadas (next/image) para evitar molestos tiempos de carga, Cacheo y CDN (Vercel, Cloudflare), Evitar renders innecesarios ( lazy load) Monitorear APIs externas (si tu app depende de ellas).
+  -utilizaria: Imágenes optimizadas (next/image) para evitar molestos tiempos de carga, Cacheo y CDN (Vercel, Cloudflare), Evitar renders innecesarios ( lazy load) Monitorear APIs externas (si tu app depende de ellas).
 
 ---
 
