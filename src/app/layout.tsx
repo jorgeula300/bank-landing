@@ -9,11 +9,8 @@ import Footer from "@/app/components/Footer";
 
 
 export const metadata: Metadata = {
-  title: 'FinCo',
-  description: 'Tu banco de confianza',
-  icons: {
-    icon: '/logo.png',
-  },
+  title: "FINCO",
+  description: "Tubanco de confianza",
 };
 
 export default function RootLayout({
