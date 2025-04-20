@@ -7,10 +7,9 @@ import Link from "next/link";
 
 const servicio = ({ params }: { params: Promise<{ cardsId: string }> }) => {
     const { cardsId } = use(params);
-    console.log(cardsId)
-    //traer el servicio
+
     const servicio = db.data.find((servicio) => servicio.id === Number(cardsId));
-    console.log(servicio)
+
     return (
         <main className="w-full mb-3 ">
             <div className="w-full h-10  flex items-center ">
